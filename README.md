@@ -29,7 +29,7 @@ This is a **fully responsive landing page** built with **Vanilla HTML, CSS, and 
 │   └── 📄 app.js                 
 ├── 📂 assets/
 │   ├── 📂 images/                
-│   └── 📂 fonts/                 
+                 
 └── 📄 README.md                  
 
 ---
