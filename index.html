@@ -49,46 +49,780 @@
   <main class="container">
     <!-- hero section, services, features -->
    <!-- Inside the main section, replace the empty section with this hero section -->
+<!-- Hero Section -->
 <section class="hero-section">
-  <div class="hero-content">
-    <div class="hero-tag">Design System For Gen Z</div>
-    <h1>Unleash Your Inner Design Sloth Today.</h1>
-    <p>Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Cras fermentum odio eu feugiat pretium nibh ipsum. Venenatis cras sed felis eget velit aliquet.</p>
-    <div class="app-buttons">
-      <a href="#" class="app-store">
-        <img src="assets/images/app-store.png" alt="App Store">
-      </a>
-      <a href="#" class="google-play">
-        <img src="assets/images/google-play.png" alt="Google Play">
-      </a>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-tag">Design System For Gen Z</div>
+      <h1>Unleash Your Inner Design Sloth Today.</h1>
+      <p class="hero-description">
+        Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Cras fermentum odio eu 
+        feugiat pretium nibh ipsum. Venenatis cras sed felis eget velit aliquet.
+      </p>
+      
+      <div class="app-buttons">
+        <a href="#" class="app-store">
+          <img src="assets/images/app-store.png" alt="App Store">
+        </a>
+        <a href="#" class="google-play">
+          <img src="assets/images/google-play.png" alt="Google Play">
+        </a>
+      </div>
     </div>
-  </div>
-  <div class="hero-image">
-    <img src="assets/images/Desktop-min 1.png" alt="Dashboard Interface">
-    <img src="assets/images/smallScreen.png" alt="screen">
-  </div>
-  <!-- Social Proof Section -->
-  <div class="clients-section">
- 
+    
+    <div class="dashboard-image">
+      <img src="assets/images/Desktop-min 1.png" alt="Dashboard Interface" class="main-dashboard">
+      <img src="assets/images/smallScreen.png" alt="Mobile Dashboard" class="mobile-dashboard">
+    </div>
+    
     <div class="client-logos">
-      <img src="assets/images/delta.png" alt="Delta">
-      <img src="assets/images/boeing.png" alt="Boeing">
-      <img src="assets/images/spacex.png" alt="SpaceX">
-      <img src="assets/images/ibm.png" alt="IBM">
-      <img src="assets/images/walmart.png" alt="Walmart">
-      <img src="assets/images/uber.png" alt="Uber">
-      <img src="assets/images/google.png" alt="Google">
-      <img src="assets/images/samsung.png" alt="Samsung">
-      <img src="assets/images/pepsi.png" alt="Pepsi">
-      <img src="assets/images/adidas.png" alt="Adidas">
+      <div class="logo-row">
+        <img src="assets/images/delta.png" alt="Delta">
+        <img src="assets/images/boeing.png" alt="Boeing">
+        <img src="assets/images/boeing.png" alt="Boeing">
+        <img src="assets/images/spacex.png" alt="SpaceX">
+        <img src="assets/images/ibm.png" alt="IBM">
+        <img src="assets/images/walmart.png" alt="Walmart">
+      </div>
+      <div class="logo-row">
+        <img src="assets/images/uber.png" alt="Uber">
+        <img src="assets/images/google.png" alt="Google">
+        <img src="assets/images/samsung.png" alt="Samsung">
+        <img src="assets/images/pepsi.png" alt="Pepsi">
+        <img src="assets/images/adidas.png" alt="Adidas">
+      </div>
     </div>
   </div>
 </section>
+
+<!-- Features Section -->
+<section class="features-section">
+  <div class="features-header">
+    <div class="features-tag">Our Main Features</div>
+    <h2>Our Primary Features</h2>
+    <p class="features-description">
+      Volutpat commodo sed egestas egestas fringilla phasellus. Tincidunt eget nullam 
+      non nisi. Nisi porta lorem mollis aliquam ut porttitor leo.
+    </p>
+  </div>
+  
+  <div class="features-grid">
+    <!-- Feature 1 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+        </svg>
+      </div>
+      <h3>Lazy Efficient</h3>
+      <p>A cras semper auctor neque. Proin libero nunc consequat interdum varius sit. Libero volutpat sed cras ornare arcu dui vivamus arcu felis.</p>
+    </div>
+    
+    <!-- Feature 2 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+          <circle cx="12" cy="12" r="7"></circle>
+          <circle cx="12" cy="12" r="3"></circle>
+          <line x1="12" y1="5" x2="12" y2="3"></line>
+          <line x1="17" y1="7" x2="19" y2="5"></line>
+          <line x1="19" y1="12" x2="21" y2="12"></line>
+          <line x1="17" y1="17" x2="19" y2="19"></line>
+          <line x1="12" y1="19" x2="12" y2="21"></line>
+          <line x1="7" y1="17" x2="5" y2="19"></line>
+          <line x1="5" y1="12" x2="3" y2="12"></line>
+          <line x1="7" y1="7" x2="5" y2="5"></line>
+        </svg>
+      </div>
+      <h3>Streamlined Process</h3>
+      <p>Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Orci porta non pulvinar neque laoreet.</p>
+    </div>
+    
+    <!-- Feature 3 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+          <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+          <line x1="16" y1="8" x2="2" y2="22"></line>
+          <line x1="17.5" y1="15" x2="9" y2="15"></line>
+        </svg>
+      </div>
+      <h3>Minimum Effort</h3>
+      <p>Tincidunt eget nullam non nisi est sit amet facilisis magna. Rhoncus dolor purus non enim praesent elementum.</p>
+    </div>
+    
+    <!-- Feature 4 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+          <path d="M3 3v18h18"></path>
+          <path d="M18 12l-6-6-6 6"></path>
+          <path d="M6 12l6 6 6-6"></path>
+        </svg>
+      </div>
+      <h3>Absolutely Easy To Use</h3>
+      <p>Rutrum quisque non tellus orci ac. Purus viverra accumsan in nisi. Id interdum velit laoreet id donec ultrices adipiscing elit.</p>
+    </div>
+    
+    <!-- Feature 5 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+          <line x1="9" y1="9" x2="9.01" y2="9"></line>
+          <line x1="15" y1="9" x2="15.01" y2="9"></line>
+        </svg>
+      </div>
+      <h3>Just Sleep & Chill</h3>
+      <p>Bibendum est ultricies integer quis auctor elit. Ultricies in iaculis nunc sed. A scelerisque purus semper eget. Facilisi morbi tempus iaculis.</p>
+    </div>
+    
+    <!-- Feature 6 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+          <line x1="9" y1="9" x2="9.01" y2="9"></line>
+          <line x1="15" y1="9" x2="15.01" y2="9"></line>
+        </svg>
+      </div>
+      <h3>Don't Worry About Life</h3>
+      <p>Pharetra diam sit amet nisi suscipit adipiscing bibendum est. Risus ultricies tristique nulla aliquet enim tortor.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Statistics Section -->
+<section class="stats-section">
+  <div class="container">
+    <div class="stats-content">
+      <!-- Image on top -->
+      <div class="stats-image">
+        <img src="assets/images/HouseSimple.png" alt="Work lazily illustration">
+      </div>
+      
+      <!-- Heading and description below image -->
+      <div class="stats-text">
+        <h2>Work lazily and achieve the result you want.</h2>
+        <p>Liquam id diam maceenas ultricies mi eget mauris pharetra et. Feugiat pretium nibh ipsum consequat nisi vel pretium lectus. Fermentum iaculis eu non diam.</p>
+      </div>
+      
+      <!-- Stats cards -->
+      <div class="stats-cards">
+        <div class="stat-card">
+          <div class="stat-number">420%</div>
+          <div class="stat-title">Data Efficiency</div>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-number">708+</div>
+          <div class="stat-title">Conversion Rate</div>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-number">1.82M</div>
+          <div class="stat-title">AI LLM Scale</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials/Features Section -->
+<section class="testimonials-section">
+  <div class="container">
+    <div class="testimonials-content">
+      <div class="testimonials-text">
+        <div class="section-tag">Who is it for?</div>
+        <h2>What the procrastinators say</h2>
+        <p class="section-description">
+          Mi ipsum faucibus vitae aliquet nec. At tempor commodo ullamcorper a
+          lacus. Bibendum at varius vel pharetra vel.
+        </p>
+        
+        <div class="features-list">
+          <!-- Feature 1 -->
+          <div class="feature-item">
+            <div class="feature-content">
+              <h3>Convallis tellus id interdum velit</h3>
+              <p>Est pellentesque elit ullamcorper dignissim cras. In pellentesque massa placerat duis ultricies.</p>
+            </div>
+          </div>
+          
+          <!-- Feature 2 -->
+          <div class="feature-item">
+            <div class="feature-content">
+              <h3>Id interdum velit laoreet id donec ultrices</h3>
+              <p>Donec massa sapien faucibus et molestie ac feugiat sed. Congue mauris rhoncus aenean vel elit scelerisque.</p>
+            </div>
+          </div>
+          
+          <!-- Feature 3 -->
+          <div class="feature-item">
+            <div class="feature-content">
+              <h3>Sapien et ligula ullamcorper malesuada</h3>
+              <p>Donec massa sapien faucibus et molestie ac feugiat sed. Congue mauris rhoncus aenean vel elit scelerisque.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonials-image">
+        <img src="assets/images/Frame.png" alt="Dashboard on mobile device">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials-section">
+  <div class="container">
+    <div class="testimonials-header">
+      <div class="testimonials-tag">Testimonials</div>
+      <h2>What People Say</h2>
+      <p class="testimonials-subtitle">
+        You can visit our office anytime but please don't stalk us or don't be creepy.
+      </p>
+    </div>
+    
+    <div class="testimonials-grid">
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card">
+        <div class="rating">
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+        </div>
+        <p class="testimonial-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel urna at metus tempor mattis, or not, whatever.
+        </p>
+        <div class="testimonial-author">
+          <div class="author-image">
+            <img src="assets/images/Avatar.png" alt="X_AE_A-13">
+          </div>
+          <div class="author-info">
+            <h4>X_AE_A-13</h4>
+            <p>Product Designer, xjorjul</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card">
+        <div class="rating">
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star half-filled">★</span>
+          <span class="star">★</span>
+        </div>
+        <p class="testimonial-text">
+          Posuere urna nec tincidunt praesent semper feugiat nibh sed. Velit dignissim sodales ut eu.
+        </p>
+        <div class="testimonial-author">
+          <div class="author-image">
+            <img src="assets/images/Avatar (1).png" alt="Kanye U. Wu">
+          </div>
+          <div class="author-info">
+            <h4>Kanye U. Wu</h4>
+            <p>CEO, nextlife.ai</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card">
+        <div class="rating">
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star">★</span>
+        </div>
+        <p class="testimonial-text">
+          Sit amet est placerat in. Blandit cursus risus at ultrices mi tempus imperdiet. Volutpat commodo sed egestas egestas fringilla phasellus. Tincidunt eget nullam non nisi.
+        </p>
+        <div class="testimonial-author">
+          <div class="author-image">
+            <img src="assets/images/Avatar (2).png" alt="Mechatronica Yi">
+          </div>
+          <div class="author-info">
+            <h4>Mechatronica Yi</h4>
+            <p>CTO, frekvens.ai</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial 4 -->
+      <div class="testimonial-card">
+        <div class="rating">
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+        </div>
+        <p class="testimonial-text">
+          Nisi porta lorem mollis aliquam ut porttitor leo. Sed odio morbi quis commodo. Arcu non odio euismod lacinia at quis. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae.
+        </p>
+        <div class="testimonial-author">
+          <div class="author-image">
+            <img src="assets/images/Avatar (3).png" alt="Oarack Babama">
+          </div>
+          <div class="author-info">
+            <h4>Oarack Babama</h4>
+            <p>Former President of US</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial 5 -->
+      <div class="testimonial-card">
+        <div class="rating">
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star half-filled">★</span>
+        </div>
+        <p class="testimonial-text">
+          Accumsan tortor posuere ac ut consequat. Quis varius quam quisque id diam vel. Commodo odio aenean sed adipiscing diam donec adipiscing. Vel pharetra vel turpis nunc eget.
+        </p>
+        <div class="testimonial-author">
+          <div class="author-image">
+            <img src="assets/images/Avatar (4).png" alt="Saylor Twift">
+          </div>
+          <div class="author-info">
+            <h4>Saylor Twift</h4>
+            <p>Famous Singer</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial 6 -->
+      <div class="testimonial-card">
+        <div class="rating">
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star half-filled">★</span>
+          <span class="star">★</span>
+        </div>
+        <p class="testimonial-text">
+          Venenatis cras sed felis eget velit aliquet. Velit scelerisque in dictum non consectetur. Felis eget velit aliquet sagittis. Ultricies integer quis auctor elit sed vulputate mi.
+        </p>
+        <div class="testimonial-author">
+          <div class="author-image">
+            <img src="assets/images/Avatar (5).png" alt="Asuna Yuuki">
+          </div>
+          <div class="author-info">
+            <h4>Asuna Yuuki</h4>
+            <p>Virtual Swordsman</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial 7 -->
+      <div class="testimonial-card">
+        <div class="rating">
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star half-filled">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+        <p class="testimonial-text">
+          Sagittis eu volutpat odio facilisis mauris sit amet massa. Urna et pharetra pharetra massa.
+        </p>
+        <div class="testimonial-author">
+          <div class="author-image">
+            <img src="assets/images/Avatar (6).png" alt="Boe Jiden">
+          </div>
+          <div class="author-info">
+            <h4>Boe Jiden</h4>
+            <p>Former President Of Canada</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial 8 -->
+      <div class="testimonial-card">
+        <div class="rating">
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+        </div>
+        <p class="testimonial-text">
+          Cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Nec nam aliquam sem et tortor consequat id porta nibh. Viverra suspendisse. Lacus sed viverra tellus in hac habitasse platea dictumst. Elit at imperdiet dui accumsan.
+        </p>
+        <div class="testimonial-author">
+          <div class="author-image">
+            <img src="assets/images/Avatar (7).png" alt="Vermillion D. Gray">
+          </div>
+          <div class="author-info">
+            <h4>Vermillion D. Gray</h4>
+            <p>CEO, hacklife.ai</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial 9 -->
+      <div class="testimonial-card">
+        <div class="rating">
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star filled">★</span>
+          <span class="star">★</span>
+        </div>
+        <p class="testimonial-text">
+          Viverra accumsan in nisl scelerisque eu. Vitae congue eu consequat ac felis donec.
+        </p>
+        <div class="testimonial-author">
+          <div class="author-image">
+            <img src="assets/images/Avatar (8).png" alt="Zuckman Wu">
+          </div>
+          <div class="author-info">
+            <h4>Zuckman Wu</h4>
+            <p>CEO, techlife.ai</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact/Office Section -->
+<section class="office-section">
+  <div class="container">
+    <div class="office-header">
+      <div class="office-tag">Visit Us Anytime</div>
+      <h2>Our Office</h2>
+      <p class="office-subtitle">
+        You can visit our office anytime but please don't stalk us or don't be creepy.
+      </p>
+    </div>
+    
+    <div class="office-locations">
+      <!-- Japan Office -->
+      <div class="office-card">
+        <div class="location-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+        </div>
+        <h3>Japan</h3>
+        <p>221b Banzai Street</p>
+        <p>Tokyo, TO 77812</p>
+      </div>
+      
+      <!-- USA Office -->
+      <div class="office-card">
+        <div class="location-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+        </div>
+        <h3>USA</h3>
+        <p>221b Freedom Street</p>
+        <p>New York, NY 21231</p>
+      </div>
+      
+      <!-- Canada Office -->
+      <div class="office-card">
+        <div class="location-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+        </div>
+        <h3>Canada</h3>
+        <p>221b Maple Syrup Street</p>
+        <p>Ottawa, ON 77847</p>
+      </div>
+      
+      <!-- South Korea Office -->
+      <div class="office-card">
+        <div class="location-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+        </div>
+        <h3>South Korea</h3>
+        <p>221b Samyang Street</p>
+        <p>Gangnam, GN 22124</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+  <div class="container">
+    <div class="faq-header">
+      <div class="faq-tag">FAQ</div>
+      <h2>Frequently Asked Questions</h2>
+      <p class="faq-description">
+        Fermentum iaculis eu non diam phasellus vestibulum. Volutpat commodo sed egestas egestas 
+        fringilla phasellus. Donec ac odio tempor orci dapibus ultrices.
+      </p>
+    </div>
+    
+    <div class="faq-list">
+      <!-- FAQ Item 1 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="question-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+          </div>
+          <h3>Enim sed faucibus turpis in eu mi bibendum neque egestas?</h3>
+          <div class="chevron-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+        </div>
+      </div>
+      
+      <!-- FAQ Item 2 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="question-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+          </div>
+          <h3>Amet consectetur adipiscing elit pellentesque habitant morbi tristique?</h3>
+          <div class="chevron-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+        </div>
+      </div>
+      
+      <!-- FAQ Item 3 (Open) -->
+      <div class="faq-item active">
+        <div class="faq-question">
+          <div class="question-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+          </div>
+          <h3>Elit pellentesque habitant morbi tristique senectus?</h3>
+          <div class="chevron-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </div>
+        </div>
+        <div class="faq-answer show">
+          <p>Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Diam quis enim lobortis scelerisque fermentum dui faucibus. Urna nunc id cursus metus aliquam eleifend mi. Gravida quis blandit turpis cursus in hac.</p>
+        </div>
+      </div>
+      
+      <!-- FAQ Item 4 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="question-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+          </div>
+          <h3>Gravida quis blandit turpis cursus in hac. Mi ipsum faucibus vitae aliquet nec?</h3>
+          <div class="chevron-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+        </div>
+      </div>
+      
+      <!-- FAQ Item 5 -->
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="question-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+          </div>
+          <h3>Est pellentesque elit ullamcorper dignissim cras. In pellentesque massa placerat?</h3>
+          <div class="chevron-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Download App Section -->
+<section class="download-section">
+  <div class="container">
+    <div class="download-content">
+      <div class="download-text">
+        <h2>Let's Download The App.</h2>
+        <p>
+          Velit scelerisque in dictum non consectetur. Felis eget velit aliquet sagittis. Ultricies integer quis auctor elit sed vulputate mi. Massa id neque aliquam vestibulum morbi blandit cursus.
+        </p>
+        <div class="download-buttons">
+          <a href="#" class="btn-outline">Learn More</a>
+          <a href="#" class="btn-primary">Get Started</a>
+        </div>
+      </div>
+      
+      <div class="app-screenshots">
+        <div class="screenshot finance-app">
+          <img src="assets/images/Screen.png" alt="Finance App Screenshot">
+        </div>
+        <div class="screenshot analytics-app">
+          <img src="assets/images/Change Here.png" alt="Analytics App Screenshot">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
   </main>
 
-  <footer class="container">
-    <!-- footer content -->
-  </footer>
+<!-- Footer Section -->
+<footer class="footer container">
+  <div class="container">
+    <div class="footer-content">
+      <!-- Site Map Column -->
+      <div class="footer-column">
+        <h3>Site Map</h3>
+        <ul class="footer-links">
+          <li><a href="#">Homepage</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Services Column -->
+      <div class="footer-column">
+        <h3>Services</h3>
+        <ul class="footer-links">
+          <li><a href="#">Service Lineup 1</a></li>
+          <li><a href="#">Service Lineup 2</a></li>
+          <li><a href="#">Service Lineup 3</a></li>
+          <li><a href="#">Service Lineup 4</a></li>
+          <li><a href="#">Service Lineup 5</a></li>
+          <li><a href="#">Service Lineup 6</a></li>
+        </ul>
+      </div>
+
+      <!-- Product Column -->
+      <div class="footer-column">
+        <h3>Product</h3>
+        <ul class="footer-links">
+          <li><a href="#">Product Lineup 1</a></li>
+          <li><a href="#">Product Lineup 2</a></li>
+          <li><a href="#">Product Lineup 3</a></li>
+          <li><a href="#">Product Lineup 4</a></li>
+          <li><a href="#">Product Lineup 5</a></li>
+          <li><a href="#">Product Lineup 6</a></li>
+        </ul>
+      </div>
+
+      <!-- Help & Support Column -->
+      <div class="footer-column">
+        <h3>Help & Support</h3>
+        <ul class="footer-links">
+          <li><a href="#">Live Chat</a></li>
+          <li><a href="#">Email Support</a></li>
+          <li><a href="#">Product Refund</a></li>
+          <li><a href="#">Submit Feedback</a></li>
+          <li><a href="#">Help Ticket</a></li>
+          <li><a href="#">Call Center</a></li>
+        </ul>
+      </div>
+
+      <!-- Legal Column -->
+      <div class="footer-column">
+        <h3>Legal</h3>
+        <ul class="footer-links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">HIPAA Notice</a></li>
+          <li><a href="#">Data Policy</a></li>
+          <li><a href="#">AI Privacy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Lawyer's Corner</a></li>
+        </ul>
+      </div>
+
+      <!-- Pricing Column -->
+      <div class="footer-column">
+        <h3>Pricing</h3>
+        <ul class="footer-links">
+          <li><a href="#">Pricing Tier 1</a></li>
+          <li><a href="#">Pricing Tier 2</a></li>
+          <li><a href="#">Pricing Tier 3</a></li>
+          <li><a href="#">Pricing Tier 4</a></li>
+          <li><a href="#">Pricing Tier 5</a></li>
+          <li><a href="#">Pricing Tier 6</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+      <div class="footer-logo">
+        <img src="assets/images/logo.png" alt="slothui logo">
+        <span>slothui</span>
+      </div>
+      <button class="scroll-top" id="scrollTop">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 15l-6-6-6 6"/>
+        </svg>
+      </button>
+      <div class="copyright">
+        Copyright 2028 slothUI. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</footer>
 
   <script src="scripts/app.js"></script>
 </body>
