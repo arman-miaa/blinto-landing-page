@@ -4,21 +4,53 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blinto Landing Page</title>
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="style/main.css" />
 </head>
 <body>
 
   <!-- Start building structure here from Figma -->
-  <header>
-    <!-- navbar etc. -->
-     <h1>Helow</h1>
-  </header>
+<header>
+  <div class="container">
+    <nav class="navbar">
+      <!-- Left: Logo -->
+      <div class="nav-left">
+        <img src="assets/images/logo.png" alt="logo" />
+        <h3>slothui</h3>
+      </div>
 
-  <main>
+      <!-- Center: Nav links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Achievements</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+
+    <!-- Right: Auth buttons -->
+<div class="nav-auth">
+  <button class="btn-outline">Sign Up</button>
+  <button class="btn-primary">Log In</button>
+</div>
+
+
+      <!-- Hamburger & Close -->
+      <div class="hamburger" id="hamburger">
+        <img src="assets/images/Button Icon.png" alt="Hamburger">
+        
+      </div>
+      <div class="close-btn" id="closeBtn">&times;</div>
+      
+    </nav>
+  </div>
+</header>
+
+
+  <main class="container">
     <!-- hero section, services, features -->
   </main>
 
-  <footer>
+  <footer class="container">
     <!-- footer content -->
   </footer>
 
