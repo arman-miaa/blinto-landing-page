@@ -125,7 +125,8 @@ body {
 /* Hero Section Styles */
 .hero-section {
   padding: 60px 0;
-  background: linear-gradient(to bottom, #ffffff, #f0f4ff);
+ background: linear-gradient(to bottom, #ffffff 0%, #f0f4ff 100%);
+
   overflow: hidden;
   position: relative;
 }
@@ -191,19 +192,21 @@ body {
   max-width: 900px;
   margin: 0 auto 60px;
   text-align: center;
+
 }
 
 .main-dashboard {
   width: 100%;
   height: auto;
   border-radius: 12px;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  /* box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); */
 }
 
 .mobile-dashboard {
   position: absolute;
   width: 30%;
-  height: auto;
+  height: 70%;
+  object-fit: fill;
   right: 0;
   top: 20%;
   border-radius: 12px;
